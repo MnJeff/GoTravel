@@ -1,19 +1,18 @@
 {
   "expo": {
-    "name": "Instagram-Clone",
-    "slug": "Instagram-Clone",
+    "name": "gotravel",
+    "slug": "gotravel",
+    "owner": "jeffthememe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/travel.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5004fa59-65c0-4803-aea4-ef1f68b47675"
+      }
     }
   }
 }
